@@ -14,7 +14,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import "./App.css";
 
-const API_BASE_URL = "http://localhost:4000/slots";
+const API_BASE_URL = "https://swing-slot-calender.onrender.com/slots";
 
 const App = () => {
   const [availableDates, setAvailableDates] = useState([]);
