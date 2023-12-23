@@ -1,8 +1,6 @@
-/* App.css */
-
 body {
   background-color: #f8f9fa;
-  font-family: "Arial", sans-serif; /* Choose your preferred font */
+  font-family: "Arial", sans-serif;
 }
 
 .container {
@@ -124,7 +122,6 @@ body {
   margin-bottom: 15px;
 }
 
-/* Additional Styles */
 .list-group-item span {
   display: flex;
   align-items: center;
@@ -138,15 +135,11 @@ body {
   display: none;
 }
 
-/* Additional Styles */
-
-/* Highlight the selected date */
 .input-selected-date {
   border: 2px solid #007bff;
   border-radius: 4px;
 }
 
-/* Styles for the Book Slot button */
 .btn-book-slot {
   background-color: #28a745;
   color: #fff;
@@ -158,7 +151,6 @@ body {
   background-color: #218838;
 }
 
-/* Styles for the Close button in the modal */
 .btn-close-modal {
   background-color: #6c757d;
   color: #fff;
@@ -170,28 +162,23 @@ body {
   background-color: #5a6268;
 }
 
-/* Container for modal content */
 .modal-content-container {
   max-height: 400px;
   overflow-y: auto;
 }
 
-/* Styles for the toast container */
 .Toastify__toast-container {
   top: 70px;
 }
 
-/* Styles for the container holding the list of available slots */
 .available-slots-container {
   margin-top: 20px;
 }
 
-/* Styles for the Booked slot item */
 .list-group-item.booked {
   background-color: #d6d8db;
 }
 
-/* Styles for the Booked slot button */
 .btn-booked {
   background-color: #d6d8db;
   color: #495057;
@@ -199,12 +186,10 @@ body {
   cursor: not-allowed;
 }
 
-/* Icon color for the Booked slot */
 .list-group-item.booked .fa-calendar-alt {
   color: #495057;
 }
 
-/* Styles for the Holiday Alert */
 .alert-holiday {
   background-color: #ffc107;
   color: #495057;

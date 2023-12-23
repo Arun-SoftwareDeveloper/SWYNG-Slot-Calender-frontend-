@@ -1,5 +1,3 @@
-// App.jsx
-
 import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Modal, Button, Alert } from "react-bootstrap";
@@ -123,7 +121,6 @@ const App = () => {
           phoneNumber: "",
           purpose: "",
         });
-        // Update UI or perform additional actions as needed
         setShowBookingModal(false);
         // Show success toast
         toast.success("Slot booked successfully");
