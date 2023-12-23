@@ -165,7 +165,7 @@ const App = () => {
       </div>
 
       <div>
-        <h2>Available Slots</h2>
+        <h2 style={{ color: "dodgerblue" }}>Available Slots</h2>
         {showHolidayAlert && (
           <Alert variant="warning">This day is a holiday!</Alert>
         )}

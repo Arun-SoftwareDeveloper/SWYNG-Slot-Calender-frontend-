@@ -2,9 +2,12 @@
 
 body {
   background-color: #f8f9fa;
+  font-family: "Arial", sans-serif; /* Choose your preferred font */
 }
 
 .container {
+  margin: auto;
+  max-width: 800px;
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
@@ -13,25 +16,30 @@ body {
 
 .additional-container {
   background-color: #f0f8ff;
-  padding: 15px;
+  padding: 20px;
   border-radius: 8px;
   margin-bottom: 20px;
 }
 
 .additional-text {
   font-weight: bold;
+  color: #007bff;
 }
 
 .form-label {
   font-weight: bold;
+  color: #007bff;
 }
 
 .btn-primary {
   transition: background-color 0.3s ease-in-out;
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid #007bff;
 }
 
 .btn-primary:hover {
-  background-color: #007bff;
+  background-color: #0056b3;
 }
 
 .list-group-item {
@@ -101,9 +109,11 @@ body {
   margin-bottom: 20px;
   animation: rotate 2s infinite linear;
 }
+
 .additional-text .mr-2 {
-  margin-right: 10px; /* Adjust the space between icon and text */
+  margin-right: 10px;
 }
+
 /* Form Styles */
 .modal-body form {
   max-width: 400px;
@@ -125,5 +135,79 @@ body {
 }
 
 .list-group-item span .faCalendarAlt {
-  display: none; /* Hide the calendar icon */
+  display: none;
+}
+
+/* Additional Styles */
+
+/* Highlight the selected date */
+.input-selected-date {
+  border: 2px solid #007bff;
+  border-radius: 4px;
+}
+
+/* Styles for the Book Slot button */
+.btn-book-slot {
+  background-color: #28a745;
+  color: #fff;
+  border: 1px solid #28a745;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-book-slot:hover {
+  background-color: #218838;
+}
+
+/* Styles for the Close button in the modal */
+.btn-close-modal {
+  background-color: #6c757d;
+  color: #fff;
+  border: 1px solid #6c757d;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-close-modal:hover {
+  background-color: #5a6268;
+}
+
+/* Container for modal content */
+.modal-content-container {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+/* Styles for the toast container */
+.Toastify__toast-container {
+  top: 70px;
+}
+
+/* Styles for the container holding the list of available slots */
+.available-slots-container {
+  margin-top: 20px;
+}
+
+/* Styles for the Booked slot item */
+.list-group-item.booked {
+  background-color: #d6d8db;
+}
+
+/* Styles for the Booked slot button */
+.btn-booked {
+  background-color: #d6d8db;
+  color: #495057;
+  border: 1px solid #d6d8db;
+  cursor: not-allowed;
+}
+
+/* Icon color for the Booked slot */
+.list-group-item.booked .fa-calendar-alt {
+  color: #495057;
+}
+
+/* Styles for the Holiday Alert */
+.alert-holiday {
+  background-color: #ffc107;
+  color: #495057;
+  border: 1px solid #ffc107;
+  margin-top: 20px;
 }
